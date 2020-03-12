@@ -1,4 +1,4 @@
-package Data;
+package data;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -8,7 +8,7 @@ import androidx.room.Update;
 
 import java.util.List;
 
-import Model.Car;
+import model.Car;
 
 @Dao
 public interface CarDAO {
